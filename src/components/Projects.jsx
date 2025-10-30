@@ -1,19 +1,20 @@
 import { ExternalLink, Github } from "lucide-react"
-import jobImage from "../assets/job.png";
+
 import ecommerceImage from "../assets/e-commerce.png";
 import todoImage from "../assets/todo.png";
-import weatherImage from "../assets/weather.png";
+import CodeReviewer from "../assets/CodeReviewer.png"
+import jobImage from "../assets/job.png"
 
 const Projects = () => {
   const projects = [
     {
-      title: "Job Portal Website",
+      title: "AI CodeReviewer Website",
       description:
-        "A comprehensive job portal platform connecting job seekers with employers. Features include job posting, application tracking, and user profiles.",
-      image: jobImage,
-      technologies: ["React", "Node.js", "Express", "MongoDB", "JWT"],
-      liveUrl: "https://t-y-website-tlz7.vercel.app/",
-      githubUrl: "https://github.com/Yash-Ghatge/T.Y.Website",
+        "An AI-powered web app that analyzes and reviews your code for improvements, readability, and best practices using the Gemini 2.5 Flash API.",
+      image: CodeReviewer,
+      technologies: ["React", "Node.js", "Express", "AI", "Gemini API"],
+      liveUrl: "https://ai-reviewer-j876.vercel.app/",
+      githubUrl: "https://github.com/Yash-Ghatge/AI_Reviewer",
     },
     {
       title: "E-Commerce Platform",
@@ -25,6 +26,15 @@ const Projects = () => {
       githubUrl: "https://github.com/Yash-Ghatge/shop_website",
     },
     {
+      title: "Job Portal Website",
+      description:
+        "A comprehensive job portal platform connecting job seekers with employers. Features include job posting, application tracking, and user profiles.",
+      image: jobImage,
+      technologies: ["React", "Node.js", "Express", "MongoDB", "JWT"],
+      liveUrl: "https://t-y-website-tlz7.vercel.app/",
+      githubUrl: "https://github.com/Yash-Ghatge/T.Y.Website",
+    },
+    {
       title: "Task Management App",
       description:
         "A collaborative task management application with fetures like create task, delete task and update task etc.",
@@ -32,15 +42,6 @@ const Projects = () => {
       technologies: ["React", "Socket.io", "CSS"],
       liveUrl: "https://github.com/Yash-Ghatge/Task-Management",
       githubUrl: "https://github.com/Yash-Ghatge/Task-Management",
-    },
-    {
-      title: "Weather Dashboard",
-      description:
-        "Interactive weather dashboard with location-based forecasts with mobile responsive.",
-      image: weatherImage,
-      technologies: ["HTML", "Javascript", "Weather API", "CSS3"],
-      liveUrl: "https://github.com/Yash-Ghatge/Weather-app",
-      githubUrl: "https://github.com/Yash-Ghatge/Weather-app",
     },
   ]
 

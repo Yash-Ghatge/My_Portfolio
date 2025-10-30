@@ -27,7 +27,7 @@ const Hero = () => {
             </h1>
             <h2 className="hero-subtitle">Full Stack Web Developer</h2>
             <p className="hero-description">
-              Passionate about creating amazing web sites with React, Node.js, Express, Django and MongoDB. I build
+              Passionate about creating amazing web sites with React, Node.js, Express, MongoDB and MySQL. I build
               scalable applications that solve real-world problems.
             </p>
 
